@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="SpeedAge"
+  id="myeclipse.1222237576079"
+  context-root="/SpeedAge"
+  j2ee-spec="1.4"
+  archive="SpeedAge.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

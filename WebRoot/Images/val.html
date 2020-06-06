@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> New Document </TITLE>
+ </HEAD>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function validateWWW(){
+	var frm = document.forms(0);
+  	var website=frm.value;
+ var pattern = /^(www\\.(.+)\\.(.+))$/;
+ if(pattern.test(website)) 
+  return true;
+  else
+  alert("Enter correct address");
+    return false;
+ }
+
+//-->
+</SCRIPT>
+ <BODY>
+ <form name =newform onsubmit= "return validateWWW()">
+  <INPUT TYPE="text" NAME="website"><INPUT TYPE="submit">
+  </form>
+ </BODY>
+</HTML>
